@@ -63,11 +63,12 @@ La nota NC1, NC2 de les competències assignades a l'assignatura obeirà a la se
 
 
 ## Continguts
-1. Introducció a la modelització en la presa de decisions: 
+1. Introducció a la modelització en la presa de decisions
 > - La modelització en el procés de presa de decisions. 
 > - Models de la Investigació Operativa. 
 > - El cicle metodològic de la investigació operativa
-2. Programació continua. Propietats i métodes 
+2. Programació continua
+> - Propietats i métodes 
 > - Característiques dels problemes d'optimització. 
 > - Formulació de problemes d'optimització
 > - Tècniques de programació matemàtica. 
