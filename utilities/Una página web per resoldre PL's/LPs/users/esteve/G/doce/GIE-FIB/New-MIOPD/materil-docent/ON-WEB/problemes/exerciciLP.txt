@@ -1,0 +1,95 @@
+Es tracta de resoldre un problema de Programació Lineal 
+emprant l'algorisme del símplex.
+
+Sel.leccioneu el problema LP que us pertoqui dins del 
+LPs.zip adjunt.
+
+El número de LP és el del vostre l'ordre de llista 
+
+Entregueu:
+
+a) la solució proporcionada per la pàgina 
+http://www.zweigmedia.com/RealWorld/simplex.html
+(taula òptima)
+
+En cas de que el problema sigui infactible, llavors contruiu el problema auxiliar usant variables artificials
+i resoleu-lo amb l'aplicatiu, comprobant que efectivament el problema auxiliar indica la infactibilitat
+de l'original.
+
+b) Reproduiu a mà la última pivotació que apareix en la solució abans d'arribar a l'òptim.
+Comproveu que les taules coincideixen o al menys, que els valors de la funció objectiu 
+coincideixen.
+Cal tenir present que la solució bàsica inicial factible no es mostrada 
+pel aplicatiu. Per tant, si la solució del problema es trobada en només
+una iteració, llavors l'únic tableau in forma canònica que es mostri serà el 
+corresponent a la solució final. En aquest cas formeu el problema auxiliar i resoleu-lo usant 
+l'applet de forma que la seva solució us proporcioni una base incial factible de la que començar.
+
+c) indiqueu si es tracta de una solució bàsica òptima 
+única o bé si n'hi han d'altres.
+
+d) En cas que n'hi hagin més de solucions bàsiques, 
+llavors determineu-ne una indicant la seva taula corresponent 
+i a més a més, calculeu una solució del problema que no sigui 
+un extrem (vèrtex) del poliedre.
+
+===============================================================
+
+Se trata de resolver un problema de PL usando el algoritmo del simplex.
+
+Seleccionad el problema LP que os corresponda dentro del LPs.zip
+
+
+Entregad:
+
+a) La soución calculada por 
+http://www.zweigmedia.com/RealWorld/simplex.html
+(taula òptima)
+ (la tabla óptima)
+
+En caso de que el problema sea infactible,entonces construid el problema auxiliar usando 
+variables artificiales i resolvedlo con el aplicativo, comprovamdo que efectivamente el 
+problema auxiliar indica la infactibilidad del problema original
+
+b)  Reproducid a mano la última 
+pivotación que efectua lINDO antes de llegar al óptimo. Comprobad que 
+las tablas coinciden o al menos que los valores de la función objetivo
+coinciden.
+Hay que tener presente que la solución básica inicial no es mostrada por el aplicativo. Por tanto, 
+si la solución del problemase determina en sólo una iteración, entonces el único tableau en forma canònica mostrado 
+será el correspondiente a la solución final. En este caso formad elproblema auxiliar i resolvedlo usando el applet de
+forma que su solución proporcione una base inicial factible de la que partir.
+
+
+c) Indicad si se trata de una solución básica óptima única o bien si hay otras.
+d) En caso que haya soluciones alternativas (básicas) calculadla indicando la tabla correspondiente i además 
+calculad adicionalmente una solución no básica del problema usando las dos obtenidas anteriormente.
+
+================================================================
+
+The exercise consists of solving a linear programming problem using the simplex algorithm
+
+Select the LP problem that has been assigned to you from the collection of Lp problems in
+LPs.zip
+
+The delivery of this exercise consists of:
+
+a) the solution as obtained usng the web page
+http://www.zweigmedia.com/RealWorld/simplex.html
+(the optimum tableau)
+
+If no feasible solution exists, then create the auxiliary problem with artificial variables and solve it, checking 
+that the auxiliary problem actually shows the infeasibility of the original problem.
+
+b) reproduce by hand the last iteration of the algorithm as shown by the applet
+   and check that the final tableau matches the one found in the solution, and
+    at least, that the optimal value of the objective function equals the one reporte by LINDO.
+   Take into account that the initial basic feasible solution is not shown by the applet. 
+   If the solution is found in just one iteration, then the only tableau in canonical form shown will be the final one.
+   In this case, form the auxiliary problem and solve it using the applet so that an initial basic feasible solution may 
+   be used to start from.
+
+c) check for alternative optima
+d) In case that alternative optima exist, then calculate a basic one different from the that found by LINDO.
+   Obtain also a non-basic solution for the problem using the previous one found by LINDO and the one that you have calculated.
+
