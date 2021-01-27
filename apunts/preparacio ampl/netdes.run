@@ -1,0 +1,31 @@
+reset;
+
+model netdes.mod;
+data netdes.dat;
+
+# Initialization of cost
+for {i in NODES} {
+  let cost[i,i] := 0;
+}
+
+for {(i,j) in ARCS} {
+  let cost[i,j] := 95 + (xcoord[i]-xcoord[j])**2 + 8*((ycoord[i]-ycoord[j])**2);
+}
+
+
+display cost;
+
+for {l in 1 .. card(NODES)} {
+  for {i in NODES, j in NODES} {
+    if cost[i,j] > cost[i,l] + cost[l,j] then {
+      let cost[i,j] := cost[i,l] + cost[l,j];
+    }
+  }
+}
+
+display cost;
+
+option solver './gurobi';
+solve;
+
+for {(i,j) in CLIENTS cross CLIENTS} if x[i,j] >= 1 then {printf "%i --> %i\n", i, j};
